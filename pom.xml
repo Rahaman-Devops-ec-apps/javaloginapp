@@ -15,10 +15,20 @@
 	<name>valaxy</name>
 	<description>Valaxy DevOps project for Spring Boot</description>
 
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
+		<properties>
+		<jdk.version>1.8</jdk.version>
+		<spring.version>5.1.2.RELEASE</spring.version>
+		<junit.version>4.11</junit.version>
+		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://192.168.29.82:9000//</sonar.host.url>
+		<sonar.login>3a0c5e9073454b951313b256cf8c32d2de1df6ed</sonar.login>
+		<!--<sonar.login>admin</sonar.login>
+		<sonar.password>0b1fd8cae3f86d91509363694444db29aa30730a</sonar.password>
+                -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+        	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -37,20 +47,6 @@
 			<scope>runtime</scope>
 		</dependency>
 		
-		<properties>
-		<jdk.version>1.8</jdk.version>
-		<spring.version>5.1.2.RELEASE</spring.version>
-		<junit.version>4.11</junit.version>
-		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://192.168.29.82:9000//</sonar.host.url>
-		<sonar.login>3a0c5e9073454b951313b256cf8c32d2de1df6ed</sonar.login>
-		<!--<sonar.login>admin</sonar.login>
-		<sonar.password>0b1fd8cae3f86d91509363694444db29aa30730a</sonar.password>
-                -->
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-        	</properties>
 		
 		
 		
